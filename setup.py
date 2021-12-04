@@ -68,7 +68,7 @@ else:
                  'matplotlib>=3.1.2',
                  'networkx>=2.4',
                  'numpy>=1.17.3',
-                 'opencv-python>=4.1',
+                 ## 'opencv-python>=4.1', ## need this to work on python 3.9, hence commenting
                  'pandas>=0.25.3',
                  'pyproj>=2.1',
                  'torch>=1.3.1',
@@ -82,7 +82,7 @@ else:
                  'torchvision>=0.5.0',
                  'tqdm>=4.40.0',
                  'urllib3>=1.25.7',
-                 'tensorflow==1.13.1'
+                 ## 'tensorflow==1.13.1' ## testing this
                  ]
 
 
